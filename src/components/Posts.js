@@ -11,9 +11,9 @@ export const Post = ({ name, fotoAuthor, nickname, content, fotoContent }) => {
          <p className='content'>{content}</p>
          <img className='postFoto' src={fotoContent} alt='foto' />
          <div className="panel">
-            <span>12{Coment()}</span>
-            <span>583{Like()}</span>
-            <span>4{Repost()}</span>
+            <span>12<Coment/></span>
+            <span>583<Like /></span>
+            <span>4<Repost /></span>
          </div>
       </div>)
 }
